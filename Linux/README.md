@@ -2,7 +2,7 @@
 
 This folder contains my Linux labs and projects completed using Kali Linux in Oracle VirtualBox.
 
-##  Labs
+##   Completed Linux Labs
 
 -  VirtualBox Shared Folder Configuration & Troubleshooting
 

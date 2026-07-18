@@ -15,7 +15,7 @@ This repository showcases my hands-on IT and cybersecurity labs, projects and tr
 
 -🔐 Cybersecurity Fundamentals
 
-#🧪Current Projects
+## 🧪Current Projects
 
 - 📦 VirtualBox Shared Folder Configuration
   

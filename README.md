@@ -17,6 +17,6 @@ This repository showcases my hands-on IT and cybersecurity labs, projects and tr
 
 ## 🧪Current Projects
 
-- 📦 VirtualBox Shared Folder Configuration
+- 📦 VirtualBox Shared Folder Configuration & Troubleshooting
   
 - 🔃 TotalThreat Community 7-Day Challenge

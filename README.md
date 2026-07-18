@@ -5,18 +5,18 @@ This repository showcases my hands-on IT and cybersecurity labs, projects and tr
 
 ## 🔧 Skills
 
--🐧 Linux
+- 🐧 Linux
 
--🖥️ Windows 11
+- 🖥️ Windows 11
 
--📦 VirtualBox
+- 📦 VirtualBox
 
--🌐 Networking
+- 🌐 Networking
 
--🔐 Cybersecurity Fundamentals
+- 🔐 Cybersecurity Fundamentals
 
 ## 🧪Current Projects
 
 - 📦 VirtualBox Shared Folder Configuration
   
--🔃 TotalThreat Community 7-Day Challenge
+- 🔃 TotalThreat Community 7-Day Challenge

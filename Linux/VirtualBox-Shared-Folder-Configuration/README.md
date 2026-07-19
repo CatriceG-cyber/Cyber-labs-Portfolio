@@ -34,11 +34,11 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 
 ![Figure 3. Initial VirtualBox shared folder configuration.](Screenshots/03_verified-user-groups.png)
 
-The user groups were checked here to determine whether my Linux user had the permissions required to access a VirtualBox shared folder. Specifically I was looking for the vboxsf group, to ensure permissions.
+-  The user groups were checked here to determine whether my Linux user had the permissions required to access a VirtualBox shared folder. Specifically I was looking for the vboxsf group, to ensure permissions.
 
-![Figure 3. Initial VirtualBox shared folder configuration.](Screenshots/03_verified-user-groups.png)
+![Figure 4. Initial VirtualBox shared folder configuration.](Screenshots/04_verify_write_access_to_sharedfolder.png)
 
-
+- I tested write access ti the VirtualBox shared folder by attempting to create a file. The operation failed with an **Operation not permitted** erorr, indicayinh yhat write access was restricted.
 
 -  Checked the shared folder mount
 

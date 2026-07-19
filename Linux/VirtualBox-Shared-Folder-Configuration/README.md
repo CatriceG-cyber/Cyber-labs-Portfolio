@@ -73,18 +73,29 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 ## Solutions
 
 
-![Figure 6. Initial VirtualBox shared folder configuration.](Screenshots/06_verified_successful_write_access.png)
+![Figure 6. Initial VirtualBox shared folder configuration.](Screenshots/01_reconfigured_virtualbox_sharedfolder.png)
 
 
+- After reconfiguring the shared folder, I verified that files could be transferred successfully between Kali Linux virtual machine and the Windows host. The screenshots below confirm that the files were successfully written to the shared folder and were visible from both OS.
+- Moved the shared folder to the Windows user profile (C:\Users\Catri\Documents\Cybersecurity_Portfolio\TTF 7 day challenge Day 1
 
-**Verify successful write access**
+**Verified successful write access**
 -  Tested write permissions by running the command: touch /media/sf_Cybersecurity_Portfolio/test.txt
 -  There wasn't any error message printed.
 -  I then listed the contents of the shared folder running this command: ls /media/sf_Cybersecurity_Portfolio
 -  The output printed: test.txt along with other files and this confirmed that I could now successfully transfer files.
 
--  Reconfigured the shared folder
 
+
+### Verified successful file transfer
+  
+  ![Figure 7. Initial VirtualBox shared folder configuration.](Success.png)
+
+- After updating the shared folder configuration, I successfully transferred files between the Windows host and the Kali Linux virtual machine. The files were visible for both Operating Systems.
+  
+ 
+  
+  
   ## Skills Demonstrated
 
 -  Linux

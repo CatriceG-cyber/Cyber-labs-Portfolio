@@ -89,7 +89,7 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 
 ### Verified successful file transfer
   
-  ![Figure 7. Initial VirtualBox shared folder configuration.](Success.png)
+  ![Figure 7. Initial VirtualBox shared folder configuration.](Screenshots/Success.png)
 
 - After updating the shared folder configuration, I successfully transferred files between the Windows host and the Kali Linux virtual machine. The files were visible for both Operating Systems.
   

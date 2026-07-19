@@ -40,11 +40,48 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 
 - I tested write access to the VirtualBox shared folder by attempting to create a file. The operation failed with an **Operation not permitted** erorr, indicating that write access was restricted.
 
--  Checked the shared folder mount
+- ![Figure 5. Initial VirtualBox shared folder configuratuion.](Linux/VirtualBox-Shared-Folder-Configuration/Screenshots/05_checking_multiple_causes.png)
 
--  Confirmed my user belonged to the 'vboxsf' group
+  - Here I checked for multiple causes in this screen shot
 
--  Tested write permissions
+    1. I verified the shared folder was mounted with the command: mount | grep vboxsf
+
+       - I confirmed the shared folder was mounted at: /media/sf_Cybersecurity_Portfolio and this ruled out the possibility that the shared folder wasn't mounted.
+
+    2. I checked the folder permissions
+
+       - I verified permissions and ownerships with the command and it helped determine whether Linux file permissions were preventing access: ls -ld /media/sf_Cybersecurity_Portfolio
+       - I also opened the Properties --> Permissions window which showed:
+                  - Owner: Root
+                  - Group: vboxsf
+                  - Owner access: R & W
+                  - Group access: R & W
+
+   3. I attempted to verify the VirtualBox Shared Folder module version
+                  - I verified with this command: modinfo vboxsf | grep version
+
+  4. I verified the runningLinux kernel
+                  - The command used here: uname -r
+                  - This confirmed which kernel version Kali Linus was using.
+
+  5. Lastly, i verified the VirtualBox kernel modules were loaded
+                  - The command used here: lsmod  | grep vbox
+                  - This confirmed that: vboxsf and vboxguest were loaded into the kernel
+
+
+
+## Solutions
+
+
+![Figure 4. Initial VirtualBox shared folder configuration.](Screenshots/06_verified_successful_write_access.png)
+
+
+
+**Verify successful write access**
+-  Tested write permissions by running the command: touch /media/sf_Cybersecurity_Portfolio/test.txt
+-  There wasn't any error message printed.
+-  I then listed the contents of the shared folder running this command: ls /media/sf_Cybersecurity_Portfolio
+-  The output printed: test.txt along with other files and this confirmed that I could now successfully transfer files.
 
 -  Reconfigured the shared folder
 

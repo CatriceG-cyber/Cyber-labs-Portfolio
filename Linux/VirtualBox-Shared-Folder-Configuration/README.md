@@ -14,7 +14,7 @@ Configure a shared folder between Windows 11 and Kali Linux using Oracle Virtual
 
 I created the initial **Cybersecurity_Portfolio** on the Windows host and began configuring it as a VirtualBox shared folder. This was my first attempt.
 
-![Screenshot 1 - Linux/VirtualBox-Shared-Folder-Configuration/Screenshots/01_configured-virtualbox-shared-folder.png
+![Screenshot 1](Screenshots/01_configured-virtualbox-shared-folder.png)
 
 
 ## Problem

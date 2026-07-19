@@ -64,7 +64,7 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
                   - The command used here: uname -r
                   - This confirmed which kernel version Kali Linus was using.
 
-  5. Lastly, i verified the VirtualBox kernel modules were loaded
+  5. Lastly, I verified the VirtualBox kernel modules were loaded
                   - The command used here: lsmod  | grep vbox
                   - This confirmed that: vboxsf and vboxguest were loaded into the kernel
 
@@ -73,7 +73,7 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 ## Solutions
 
 
-![Figure 4. Initial VirtualBox shared folder configuration.](Screenshots/06_verified_successful_write_access.png)
+![Figure 6. Initial VirtualBox shared folder configuration.](Screenshots/06_verified_successful_write_access.png)
 
 
 

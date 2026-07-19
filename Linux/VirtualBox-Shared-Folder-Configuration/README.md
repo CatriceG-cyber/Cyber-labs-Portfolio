@@ -25,7 +25,12 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 
 ## Troubleshooting
 
-- Verified VirtualBox Guest Additions
+![Figure 1. Initial VirtualBox shared folder configuration.](02_verified-shared-folder.png)
+
+
+- Verified VirtualBox shared folder mount
+
+-  I verified that the VirtualBox shared folder was mounted and accessible by checking the /media directory and locating the sf_Cybersecurity_Portfolio shared folder. This confirmed that the shared folder was present and could view it's contents.
 
 -  Checked the shared folder mount
 

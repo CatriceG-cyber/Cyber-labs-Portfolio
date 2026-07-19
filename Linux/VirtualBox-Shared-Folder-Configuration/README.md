@@ -40,7 +40,7 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 
 - I tested write access to the VirtualBox shared folder by attempting to create a file. The operation failed with an **Operation not permitted** erorr, indicating that write access was restricted.
 
-- ![Figure 5. Initial VirtualBox shared folder configuratuion.](Linux/VirtualBox-Shared-Folder-Configuration/Screenshots/05_checking_multiple_causes.png)
+- ![Figure 5. Initial VirtualBox shared folder configuratuion.](Screenshots/05_checking_multiple_causes.png)
 
   - Here I checked for multiple causes in this screen shot
 

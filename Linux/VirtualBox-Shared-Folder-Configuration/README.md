@@ -19,9 +19,9 @@ This was my first attempt.
 
 
 ## Problem
-After configuring the shared folder, I attempted to save screenshots from Kali Linux to the shared folder. Instead of creating the file successfully, I received the following error:
+After configuring the shared folder, I attempted to transfer screenshots from Kali Linux to the VirtualBox shared folder. Instead of transferring the files successfully, I received the following error:
 
-'Operation not permitted'
+**Operation not permitted**
 
 ## Troubleshooting
 

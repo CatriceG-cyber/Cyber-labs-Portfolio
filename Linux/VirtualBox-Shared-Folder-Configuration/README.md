@@ -25,7 +25,7 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 
 ## Troubleshooting
 
-![Figure 2. Initial VirtualBox shared folder configuration.](02_verified-shared-folder.png)
+![Figure 2. Initial VirtualBox shared folder configuration.](Screenshots/02_verified-shared-folder.png)
 
 
 - Verified VirtualBox shared folder mount

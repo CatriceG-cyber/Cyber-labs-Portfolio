@@ -15,11 +15,11 @@ Configure a shared folder between Windows 11 and Kali Linux using Oracle Virtual
 I created the initial **Cybersecurity_Portfolio** folder on the Windows host and began configuring it as a VirtualBox shared folder in Oracle VirtualBox. I enabled the shared folder so it could be accessed from my Kali Linux virtual machine.
 This was my first attempt.
 
-![Screenshot 1](Screenshots/01_configured-virtualbox-shared-folder.png)
+![Screenshot 1](Screenshots/Linux/VirtualBox-Shared-Folder-Configuration/Screenshots/011_operation-error.png)
 
 
 ## Problem
-When I attemped to save my screenshots from Kali Linux to the shared folder, I received this error:
+After configuring the shared folder, I attempted to save screenshots from Kali Linux to the shared folder. Instead of creating the file successfully, I received the following error:
 
 'Operation not permitted'
 

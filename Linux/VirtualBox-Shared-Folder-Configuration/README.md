@@ -52,33 +52,35 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 
 ### Verify Folder Permissions
   
-  -   Here I checked for multiple causes in this screenshot
+  -  I checked multiple causes of this issue.
 
-    1. I verified the shared folder was mounted with the command: 'mount | grep vboxsf'
+    1. Verified the shared folder was mount 
+    Used the command: 'mount | grep vboxsf'
 
        - I confirmed the shared folder was mounted at: '/media/sf_Cybersecurity_Portfolio' and this ruled out the possibility that the shared folder wasn't mounted.
 
-    2. I checked the folder permissions
+    2. Checked folder permissions
+    Used the command: ls -ld /media/sf_Cybersecurity_Portfolio'
 
-       - I verified permissions and ownership with the command and it helped determine whether Linux file permissions were preventing access: 'ls -ld /media/sf_Cybersecurity_Portfolio'
+       - I verified permissions and ownership with the command and it helped determine whether Linux file permissions were preventing access
+       
        - I also opened the Properties --> Permissions window which showed:
-                  - Owner: 'Root'
-                  - Group: 'vboxsf'
-                  - Owner access: 'R & W'
-                  - Group access: 'R & W'
+                  - Owner: Root
+                  - Group: vboxsf
+                  - Owner access: Read & Write
+                  - Group access: Read & Write
+  
+    3. Verified the VirtualBox module
+      Used the command:  modinfo vboxsf | grep version
 
-   3. I attempted to verify the VirtualBox Shared Folder module version
-                  - I verified with this command: modinfo vboxsf | grep version
-
-  4. I verified the runningLinux kernel
-                  - The command used here: 'uname -r'
-                  - This confirmed the active Kali Linus kernel version.
-
-  ### Verify VirtualBox Modules
+    4. I verified the runningLinux kernel
+                  - The command used here: uname -r
+                  - This confirmed the active Kali Linus kernel version. 
+    
+    5. Verify VirtualBox kernel Modules
+        Used the command: lsmod | grep vbox
    
-   Lastly, I verified the VirtualBox kernel modules were loaded
-                  - The command used here: 'lsmod  | grep vbox'
-                  - This confirmed that: vboxsf and vboxguest were loaded into the kernel
+    - This confirmed that: vboxsf and vboxguest were loaded into the kernel
 
 
 

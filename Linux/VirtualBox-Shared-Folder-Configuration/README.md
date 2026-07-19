@@ -32,6 +32,14 @@ After configuring the shared folder, I attempted to transfer screenshots from Ka
 
 -  I verified that the VirtualBox shared folder was mounted and accessible by checking the /media directory and locating the sf_Cybersecurity_Portfolio shared folder. This confirmed that the shared folder was present and could view it's contents.
 
+![Figure 3. Initial VirtualBox shared folder configuration.](Screenshots/03_verified-user-groups.png)
+
+The user groups were checked here to determine whether my Linux user had the permissions required to access a VirtualBox shared folder. Specifically I was looking for the vboxsf group, to ensure permissions.
+
+![Figure 3. Initial VirtualBox shared folder configuration.](Screenshots/03_verified-user-groups.png)
+
+
+
 -  Checked the shared folder mount
 
 -  Confirmed my user belonged to the 'vboxsf' group
